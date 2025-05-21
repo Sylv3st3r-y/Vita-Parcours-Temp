@@ -35,10 +35,10 @@
         <Placemark>
             <name>Posten 1</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Dynamisches Stretching:<br/>Oberschenkelmuskulatur (hinten/innen) <a target="_blank" href="https://mil-sport.ch/topics/exercise/3057">Genauere Beschreibung Technik</a><br/>
-            Oberschenkelmuskulatur (innen) <a target="_blank" href="https://mil-sport.ch/topics/exercise/2272">Genauere Beschreibung Technik</a><br/>
-            Oberschenkelmuskulatur (vorne) <a target="_blank" href="https://mil-sport.ch/topics/exercise/2303">Genauere Beschreibung Technik</a><br/>
-            Rumpfmuskulatur (seitlich) <a target="_blank" href="https://mil-sport.ch/topics/exercise/2366">Genauere Beschreibung Technik</a><br/>
+            <description><![CDATA[Dynamisches Stretching:<br/>Oberschenkelmuskulatur (hinten/innen), <a target="_blank" href="https://mil-sport.ch/topics/exercise/3057">genauere Beschreibung Technik</a><br/>
+            Oberschenkelmuskulatur (innen), <a target="_blank" href="https://mil-sport.ch/topics/exercise/2272">genauere Beschreibung Technik</a><br/>
+            Oberschenkelmuskulatur (vorne), <a target="_blank" href="https://mil-sport.ch/topics/exercise/2303">genauere Beschreibung Technik</a><br/>
+            Rumpfmuskulatur (seitlich), <a target="_blank" href="https://mil-sport.ch/topics/exercise/2366">genauere Beschreibung Technik</a><br/>
             Jeweils beide Körperseiten Dehnen!]]></description>
             <Point>
                 <coordinates>7.450076482281527,46.927851881157856,0</coordinates>
@@ -69,7 +69,7 @@
         <Placemark>
             <name>Posten 2</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Rumpfbeuge 10x <a target="_blank" href="https://mil-sport.ch/topics/exercise/759">Genauere Beschreibung Technik</a>]]></description>
+            <description><![CDATA[Rumpfbeuge 10x, <a target="_blank" href="https://mil-sport.ch/topics/exercise/759">genauere Beschreibung Technik</a>]]></description>
             <Point>
                 <coordinates>7.449974664311593,46.9275824756526,0</coordinates>
             </Point>
@@ -99,7 +99,7 @@
         <Placemark>
             <name>Posten 3</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Einbeiniges Springen zum Schachtdeckel und zurück <a target="_blank" href="https://mil-sport.ch/topics/exercise/1652">Genauere Beschreibung Technik</a>]]></description>
+            <description><![CDATA[Einbeiniges Springen zum Schachtdeckel und zurück, <a target="_blank" href="https://mil-sport.ch/topics/exercise/1652">genauere Beschreibung Technik</a>]]></description>
             <Point>
                 <coordinates>7.449500676289136,46.9278950258818,0</coordinates>
             </Point>
@@ -129,7 +129,7 @@
         <Placemark>
             <name>Posten 4</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Unterarmstütz 1 min <a target="_blank" href="https://mil-sport.ch/topics/exercise/720">Genauere Beschreibung Technik</a>]]></description>
+            <description><![CDATA[Unterarmstütz 1 min, <a target="_blank" href="https://mil-sport.ch/topics/exercise/720">genauere Beschreibung Technik</a>]]></description>
             <Point>
                 <coordinates>7.448933363839599,46.928060122671255,0</coordinates>
             </Point>
@@ -219,7 +219,7 @@
         <Placemark>
             <name>Posten 7</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Kniebeuge mit angelehntem Rücken 1 min <a target="_blank" href="https://mil-sport.ch/topics/exercise/865">Genauere Beschreibung Technik</a>]]></description>
+            <description><![CDATA[Kniebeuge mit angelehntem Rücken 1 min, <a target="_blank" href="https://mil-sport.ch/topics/exercise/865">genauere Beschreibung Technik</a>]]></description>
             <Point>
                 <coordinates>7.44966448349447,46.92857881528178,0</coordinates>
             </Point>
@@ -250,7 +250,7 @@
         <Placemark>
             <name>Posten 8</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Liegestütze 10 x <a target="_blank" href="https://mil-sport.ch/topics/exercise/984">Genauere Beschreibung Technik</a>]]></description>
+            <description><![CDATA[Liegestütze 10 x, <a target="_blank" href="https://mil-sport.ch/topics/exercise/984">genauere Beschreibung Technik</a>]]></description>
             <Point>
                 <coordinates>7.449641088955606,46.92836572586968,0</coordinates>
             </Point>
