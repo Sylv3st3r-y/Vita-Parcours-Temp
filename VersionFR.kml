@@ -35,10 +35,10 @@
         <Placemark>
             <name>Poste 1</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Stretching Dynamique:<br/>Muscles de la cuisse (arrière/intérieur) <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/3057">Description détaillée</a><br/>
-            Muscles de la cuisse (intérieur) <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/2272">Description détaillée</a><br/>
-            Muscles de la cuisse (devant) <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/2303">Description détaillée</a><br/>
-            muscles du tronc (latéraux) <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/2366">Description détaillée</a><br/>
+            <description><![CDATA[Stretching Dynamique:<br/>Muscles de la cuisse (arrière/intérieur), <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/3057">description détaillée</a><br/>
+            Muscles de la cuisse (intérieur), <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/2272">description détaillée</a><br/>
+            Muscles de la cuisse (devant), <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/2303">description détaillée</a><br/>
+            muscles du tronc (latéraux), <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/2366">description détaillée</a><br/>
             Étirez les deux côtés à chaque exercice!]]></description>
             <Point>
                 <coordinates>7.450076482281527,46.927851881157856,0</coordinates>
@@ -69,7 +69,7 @@
         <Placemark>
             <name>Poste 2</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Faire 10 flexions du tronc <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/759">Description détaillée</a>]]></description>
+            <description><![CDATA[Faire 10 flexions du tronc, <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/759">description détaillée</a>]]></description>
             <Point>
                 <coordinates>7.449974664311593,46.9275824756526,0</coordinates>
             </Point>
@@ -99,7 +99,7 @@
         <Placemark>
             <name>Poste 3</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Aller-retour sur une jambe jusqu'à la plaque d'égouts<a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/1652">Description détaillée</a>]]></description>
+            <description><![CDATA[Aller-retour sur une jambe jusqu'à la plaque d'égouts, <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/1652">description détaillée</a>]]></description>
             <Point>
                 <coordinates>7.449500676289136,46.9278950258818,0</coordinates>
             </Point>
@@ -129,7 +129,7 @@
         <Placemark>
             <name>Poste 4</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Appui frontal sur les avant-bras 1 min <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/720">Description détaillée</a>]]></description>
+            <description><![CDATA[Appui frontal sur les avant-bras 1 min, <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/720">description détaillée</a>]]></description>
             <Point>
                 <coordinates>7.448933363839599,46.928060122671255,0</coordinates>
             </Point>
@@ -189,7 +189,7 @@
         <Placemark>
             <name>Poste 6</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Montez deux marches, puis descendez-en une. Montez 2 fois les escaliers en faisant une pause de 15 secondes entre chaque série .]]></description>
+            <description><![CDATA[Montez deux marches, puis descendez-en une. Montez 2 fois les escaliers en faisant une pause de 15 secondes entre chaque série.]]></description>
             <Point>
                 <coordinates>7.449393715059398,46.9287313968761,0</coordinates>
             </Point>
@@ -219,7 +219,7 @@
         <Placemark>
             <name>Poste 7</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Faire la chaise 1 min <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/865">Description détaillée</a>]]></description>
+            <description><![CDATA[Faire la chaise 1 min, <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/865">description détaillée</a>]]></description>
             <Point>
                 <coordinates>7.44966448349447,46.92857881528178,0</coordinates>
             </Point>
@@ -250,7 +250,7 @@
         <Placemark>
             <name>Poste 8</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Effectuer 10 pompes <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/984">Description détaillée</a>]]></description>
+            <description><![CDATA[Effectuer 10 pompes, <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/984">description détaillée</a>]]></description>
             <Point>
                 <coordinates>7.449641088955606,46.92836572586968,0</coordinates>
             </Point>
