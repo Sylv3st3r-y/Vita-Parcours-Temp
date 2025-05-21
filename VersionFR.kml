@@ -69,7 +69,7 @@
         <Placemark>
             <name>Poste 2</name>
             <styleUrl>#markerStyle</styleUrl>
-            <description><![CDATA[Faire 10 flexions du tronc(également possible sur le banc), <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/759">description détaillée</a>]]></description>
+            <description><![CDATA[Faire 10 flexions du tronc (également possible sur le banc), <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/759">description détaillée</a>]]></description>
             <Point>
                 <coordinates>7.449974664311593,46.9275824756526,0</coordinates>
             </Point>
