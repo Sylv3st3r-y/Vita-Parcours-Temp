@@ -1,0 +1,305 @@
+<kml xmlns="http://www.opengis.net/kml/2.2"
+    xmlns:gx="http://www.google.com/kml/ext/2.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
+    <Document>
+        <name>Parcoursvita swisstopo</name>
+
+
+        <!--________STYLE VOM SYMBOL________-->
+        <Style id="markerStyle">
+            <IconStyle>
+                <scale>1.2</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Marker.png</href>
+                </Icon>
+                <hotSpot x="50" y="0" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale>
+            </LabelStyle>
+        </Style>
+
+
+        <!--________POSTE 1________-->
+
+        <Style id="labelStyle1">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Poste1.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Poste 1</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Stretching Dynamique:<br/>Muscles de la cuisse (arrière/intérieur), <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/3057">description détaillée</a><br/>
+            Muscles de la cuisse (intérieur), <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/2272">description détaillée</a><br/>
+            Muscles de la cuisse (devant), <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/2303">description détaillée</a><br/>
+            muscles du tronc (latéraux), <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/2366">description détaillée</a><br/>
+            Étirez les deux côtés à chaque exercice!]]></description>
+            <Point>
+                <coordinates>7.450076482281527,46.927851881157856,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle1</styleUrl>
+            <Point>
+                <coordinates>7.450076482281527,46.927851881157856,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTE 2________-->
+
+        <Style id="labelStyle2">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Poste2.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Poste 2</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Faire 10 flexions du tronc, <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/759">description détaillée</a>]]></description>
+            <Point>
+                <coordinates>7.449974664311593,46.9275824756526,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle2</styleUrl>
+            <Point>
+                <coordinates>7.449974664311593,46.9275824756526,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTE 3________-->
+
+        <Style id="labelStyle3">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Poste3.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Poste 3</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Aller-retour sur une jambe jusqu'à la plaque d'égouts, <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/1652">description détaillée</a>]]></description>
+            <Point>
+                <coordinates>7.449500676289136,46.9278950258818,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle3</styleUrl>
+            <Point>
+                <coordinates>7.449500676289136,46.9278950258818,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTE 4________-->
+
+        <Style id="labelStyle4">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Poste4.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Poste 4</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Appui frontal sur les avant-bras 1 min, <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/720">description détaillée</a>]]></description>
+            <Point>
+                <coordinates>7.448933363839599,46.928060122671255,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle4</styleUrl>
+            <Point>
+                <coordinates>7.448933363839599,46.928060122671255,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTE 5________-->
+
+        <Style id="labelStyle5">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Poste5.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Poste 5</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Placez une jambe sur un mur stable, puis ramenez l'autre jambe de manière à ce que vos pieds soient l'un à côté de l'autre. Tendez maintenant les deux jambes en même temps et maintenez la position tendue pendant 2 à 3 secondes pour étirer les muscles. Redescendez ensuite de manière contrôlée. Changez de jambe à chaque répétition, 10 fois au total de chaque côté, <a target="_blank" href="https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Exemple_5.png">description détaillée</a>]]></description>
+            <Point>
+                <coordinates>7.4489741065755,46.92827870286642,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle5</styleUrl>
+            <Point>
+                <coordinates>7.4489741065755,46.92827870286642,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTE 6________-->
+
+        <Style id="labelStyle6">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Poste6.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Poste 6</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Montez deux marches, puis descendez-en une. Montez 2 fois les escaliers en faisant une pause de 15 secondes entre chaque série, <a target="_blank" href="https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Exemple_6.png">description détaillée</a>]]></description>
+            <Point>
+                <coordinates>7.449393715059398,46.9287313968761,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle6</styleUrl>
+            <Point>
+                <coordinates>7.449393715059398,46.9287313968761,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTE 7________-->
+
+        <Style id="labelStyle7">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Poste7.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Poste 7</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Faire la chaise 1 min, <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/865">description détaillée</a>]]></description>
+            <Point>
+                <coordinates>7.44966448349447,46.92857881528178,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle7</styleUrl>
+            <Point>
+                <coordinates>7.44966448349447,46.92857881528178,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTE 8________-->
+
+        <Style id="labelStyle8">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Poste8.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+
+        <Placemark>
+            <name>Poste 8</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Effectuer 10 pompes, <a target="_blank" href="https://mil-sport.ch/fr/topics/exercise/984">description détaillée</a>]]></description>
+            <Point>
+                <coordinates>7.449641088955606,46.92836572586968,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle8</styleUrl>
+            <Point>
+                <coordinates>7.449641088955606,46.92836572586968,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <!--________ROUTE________-->
+        <Placemark>
+            <name></name>
+            <description></description>
+            <Style>
+                <LineStyle>
+                    <color>ff246e00</color>
+                    <width>5</width>
+                </LineStyle>
+                <PolyStyle>
+                    <color>00000000</color>
+                </PolyStyle>
+            </Style>
+            <ExtendedData>
+                <Data name="type">
+                    <value>linepolygon</value>
+                </Data>
+            </ExtendedData>
+            <MultiGeometry>
+                <LineString>
+                    <coordinates>7.44964987751342,46.9282020794903 7.44958294685198,46.9281256710743 7.44953709618463,46.9280782478419 7.44965810033268,46.9280261662477 7.4498109592704,46.9279595094468 7.45014629797226,46.9278080221807 7.45010968857438,46.9277655231979 7.44996896715466,46.9276155859418 7.4497188551812,46.9277310393701 7.44946526256658,46.9278464925502 7.44936278752024,46.9278905328935 7.44924640251053,46.9278905427799 7.44918909278594,46.9279167236582 7.44920992566115,46.9279428979612 7.44904492159117,46.9280166949099 7.44886949617432,46.9280988130325 7.44899305913321,46.9282208116788 7.44903272169447,46.9282683480793 7.44894350736496,46.9283124993884 7.44889888697331,46.9283532625598 7.44886381500019,46.9283708510384 7.44879728158047,46.9284042061432 7.44865105357484,46.9284857143947 7.44860373886618,46.9285135133219 7.4485360582642,46.9285593717014 7.44857176354463,46.9285977896779 7.44864364874023,46.9286657090611 7.44882462135651,46.9288541666468 7.44897089283779,46.929017159116 7.4493674398005,46.9288320495403 7.4493801226007,46.9287502395896 7.4496583559307,46.9286210164987 7.44984765724609,46.9285075717396 7.44980360267483,46.9284584517465 7.44964989660689,46.9283039502067 7.44961519088528,46.9282598092766 7.44962261938803,46.9282241538738 7.44964987751342,46.9282020794903</coordinates>
+                </LineString>
+                <LineString>
+                    <coordinates>7.44964987751342,46.9282020794903 7.44985558149116,46.9281052727834 7.4500137404991,46.9280317001712 7.4501756905309,46.9279583068928 7.45021008930055,46.9279428994111 7.45025464645265,46.927921003179 7.45034728811407,46.9278705201452 7.45039295926183,46.927838807734 7.45049380319847,46.9277687929612 7.45080611311334,46.9275587487877</coordinates>
+                </LineString>
+                <LineString>
+                    <coordinates>7.45080611311334,46.9275587487877 7.45080611311334,46.9275587487877</coordinates>
+                </LineString>
+                <LineString>
+                    <coordinates>7.45080611311334,46.9275587487877 7.45115358111589,46.9279339320796</coordinates>
+                </LineString>
+                <LineString>
+                    <coordinates>7.45080611311334,46.9275587487877 7.4508061155544,46.9275587471459</coordinates>
+                </LineString>
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>

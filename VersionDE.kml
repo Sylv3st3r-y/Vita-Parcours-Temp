@@ -1,0 +1,313 @@
+<kml xmlns="http://www.opengis.net/kml/2.2"
+    xmlns:gx="http://www.google.com/kml/ext/2.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
+    <Document>
+        <!-- Hier ist der Anzeigenname von der Zeichnung gespeichert-->
+        <name>Vitaparcours swisstopo</name>  
+
+        <!--________STYLE VOM SYMBOL________-->
+        <!-- Ein Bild wurde als Icon für jeden Posten auf einem externen Server abgelegt-->
+        <Style id="markerStyle">
+            <IconStyle>
+                <scale>1.2</scale> <!--Die Grösse des Icons-->
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Marker.png</href> <!--URL zum Symbol-->
+                </Icon>
+                <hotSpot x="50" y="0" xunits="pixels" yunits="pixels"/> <!--Offset Verschiebung des Bildes gegenüber seine reale Lage-->
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale> <!--Die Grösse der Beschriftung wird auf 0 gesetzt um keine parasitlichen Annotation zu erzeugen-->
+            </LabelStyle>
+        </Style>
+
+
+        <!--________POSTEN 1________-->
+        <!--Jeder Posten wurde genau gleich aufgebaut und sollte gleich strukturiert sein-->
+
+        <!--Hier wird die Beschriftung eingestellt. Sie wurde ebenfalls mit einem Bild gemacht da KML sehr eingeschränkte Möglichkeiten an Symbolisierung bietet.-->
+        <Style id="labelStyle1"> <!-- Die ID des Style wird nachher mit dem Placemark verknüpft-->
+            <IconStyle>
+                <scale>1.0</scale> <!--Die Grösse des Icons-->
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Posten1.png</href> <!--URL zur Beschriftung(als PNG gespeichert)-->
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/> <!--Offset Verschiebung des Bildes gegenüber seine reale Lage-->
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Posten 1</name> <!--Der Namen des Posten, wird beim Klicken auf dem Posten angezeigt.-->
+            <styleUrl>#markerStyle</styleUrl> <!--Die Addressierung vom Aussehen, weil es nicht möglich ist zwei Icon Styles an einem Punkt zu geben wurde das ganze Vorgehen aufgeteilt. Hier wurde das Symbol verknüpft-->
+            <description><![CDATA[Dynamisches Stretching:<br/>Oberschenkelmuskulatur (hinten/innen), <a target="_blank" href="https://mil-sport.ch/topics/exercise/3057">genauere Beschreibung Technik</a><br/>
+            Oberschenkelmuskulatur (innen), <a target="_blank" href="https://mil-sport.ch/topics/exercise/2272">genauere Beschreibung Technik</a><br/>
+            Oberschenkelmuskulatur (vorne), <a target="_blank" href="https://mil-sport.ch/topics/exercise/2303">genauere Beschreibung Technik</a><br/>
+            Rumpfmuskulatur (seitlich), <a target="_blank" href="https://mil-sport.ch/topics/exercise/2366">genauere Beschreibung Technik</a><br/>
+            Jeweils beide Körperseiten Dehnen!]]></description> <!--Die Beschreibung des jeweiliges Posten, ist in HTML geschrieben.-->
+            <Point>
+                <coordinates>7.450076482281527,46.927851881157856,0</coordinates> <!--Die Koordinaten des Postens-->
+            </Point>
+        </Placemark>
+
+        <Placemark> <!--Hier wird der Placemark für die Beschriftung definiert-->
+            <name></name>
+            <styleUrl>#labelStyle1</styleUrl> <!--Style der Beschriftung-->
+            <Point>
+                <coordinates>7.450076482281527,46.927851881157856,0</coordinates> <!--Die Koordinaten des Postens-->
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTEN 2________-->
+
+        <Style id="labelStyle2">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Posten2.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Posten 2</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Rumpfbeuge 10x, <a target="_blank" href="https://mil-sport.ch/topics/exercise/759">genauere Beschreibung Technik</a>]]></description>
+            <Point>
+                <coordinates>7.449974664311593,46.9275824756526,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle2</styleUrl>
+            <Point>
+                <coordinates>7.449974664311593,46.9275824756526,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTEN 3________-->
+
+        <Style id="labelStyle3">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Posten3.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Posten 3</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Einbeiniges Springen zum Schachtdeckel und zurück, <a target="_blank" href="https://mil-sport.ch/topics/exercise/1652">genauere Beschreibung Technik</a>]]></description>
+            <Point>
+                <coordinates>7.449500676289136,46.9278950258818,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle3</styleUrl>
+            <Point>
+                <coordinates>7.449500676289136,46.9278950258818,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTEN 4________-->
+
+        <Style id="labelStyle4">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Posten4.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Posten 4</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Unterarmstütz 1 min, <a target="_blank" href="https://mil-sport.ch/topics/exercise/720">genauere Beschreibung Technik</a>]]></description>
+            <Point>
+                <coordinates>7.448933363839599,46.928060122671255,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle4</styleUrl>
+            <Point>
+                <coordinates>7.448933363839599,46.928060122671255,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTEN 5________-->
+
+        <Style id="labelStyle5">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Posten5.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Posten 5</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Stelle ein Bein auf eine stabile Mauer und bringe anschließend das andere Bein dazu, sodass beide Füße nebeneinander stehen. Strecke nun beide Beine gleichzeitig, halte die gestreckte Position 2–3 Sekunden zur Dehnung. Steige dann kontrolliert wieder ab. Wechsle bei jeder Wiederholung das führende Bein, insgesamt 10× pro Seite, <a target="_blank" href="https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Beispiel_5.png">genauere Beschreibung Technik</a>]]></description>
+            <Point>
+                <coordinates>7.4489741065755,46.92827870286642,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle5</styleUrl>
+            <Point>
+                <coordinates>7.4489741065755,46.92827870286642,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTEN 6________-->
+
+        <Style id="labelStyle6">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Posten6.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Posten 6</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Jeweils zwei Treppenstufen hinauf- und anschliessend eine hinabsteigen. Die Treppe zweimal absolvieren, mit einer 15 Sekunden Pause zwischen den Durchgängen, <a target="_blank" href="https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Beispiel_6.png">genauere Beschreibung Technik</a>]]></description>
+            <Point>
+                <coordinates>7.449393715059398,46.9287313968761,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle6</styleUrl>
+            <Point>
+                <coordinates>7.449393715059398,46.9287313968761,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTEN 7________-->
+
+        <Style id="labelStyle7">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Posten7.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+        <Placemark>
+            <name>Posten 7</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Kniebeuge mit angelehntem Rücken 1 min, <a target="_blank" href="https://mil-sport.ch/topics/exercise/865">genauere Beschreibung Technik</a>]]></description>
+            <Point>
+                <coordinates>7.44966448349447,46.92857881528178,0</coordinates>
+            </Point>
+        </Placemark>
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle7</styleUrl>
+            <Point>
+                <coordinates>7.44966448349447,46.92857881528178,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________POSTEN 8________-->
+
+        <Style id="labelStyle8">
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>https://raw.githubusercontent.com/Sylv3st3r-y/Vita-Parcours-Temp/main/Posten8.png</href>
+                </Icon>
+                <hotSpot x="-155" y="-300" xunits="pixels" yunits="pixels"/>
+            </IconStyle>
+        </Style>
+
+
+        <Placemark>
+            <name>Posten 8</name>
+            <styleUrl>#markerStyle</styleUrl>
+            <description><![CDATA[Liegestütze 10 x, <a target="_blank" href="https://mil-sport.ch/topics/exercise/984">genauere Beschreibung Technik</a>]]></description>
+            <Point>
+                <coordinates>7.449641088955606,46.92836572586968,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <Placemark>
+            <name></name>
+            <styleUrl>#labelStyle8</styleUrl>
+            <Point>
+                <coordinates>7.449641088955606,46.92836572586968,0</coordinates>
+            </Point>
+        </Placemark>
+
+
+        <!--________ROUTE________-->
+        <!--Hier wird die Route als Polylinie gespeichert-->
+
+        <Placemark>
+            <name></name>
+            <description></description>
+            <Style>
+                <LineStyle>
+                    <color>ff246e00</color> <!--Farbe der Route, zu beachten ist das die Farbe nach Transparenz, Blue, Green, Red definiert wird umgekehrt wie in den meisten Sprachen-->
+                    <width>5</width> <!--Konturstärke der Route-->
+                </LineStyle>
+                <PolyStyle>
+                    <color>00000000</color> <!--Farbe der Füllung, zu beachten ist das die Farbe nach Transparenz, Blue, Green, Red definiert wird umgekehrt wie in den meisten Sprachen-->
+                </PolyStyle>
+            </Style>
+            <ExtendedData>
+                <Data name="type">
+                    <value>linepolygon</value>
+                </Data>
+            </ExtendedData>
+            <MultiGeometry> <!--Die Linien bestand aus swisstopo Daten in QGIS um den perfekten Strassenverlauf wieder zugeben, das erzeugte aber mehrere KMLs und wenn sie in einer Linie
+            zusammengeführt werden, wurden die offene Enden zusammen verbunden und es entstand ein Polygon. Falls den Linien Verlauf sich ändern sollte, muss die Linie vermutlich
+            nach den Änderungen hier neu definiert werden.-->
+                <LineString>
+                    <coordinates>7.44964987751342,46.9282020794903 7.44958294685198,46.9281256710743 7.44953709618463,46.9280782478419 7.44965810033268,46.9280261662477 7.4498109592704,46.9279595094468 7.45014629797226,46.9278080221807 7.45010968857438,46.9277655231979 7.44996896715466,46.9276155859418 7.4497188551812,46.9277310393701 7.44946526256658,46.9278464925502 7.44936278752024,46.9278905328935 7.44924640251053,46.9278905427799 7.44918909278594,46.9279167236582 7.44920992566115,46.9279428979612 7.44904492159117,46.9280166949099 7.44886949617432,46.9280988130325 7.44899305913321,46.9282208116788 7.44903272169447,46.9282683480793 7.44894350736496,46.9283124993884 7.44889888697331,46.9283532625598 7.44886381500019,46.9283708510384 7.44879728158047,46.9284042061432 7.44865105357484,46.9284857143947 7.44860373886618,46.9285135133219 7.4485360582642,46.9285593717014 7.44857176354463,46.9285977896779 7.44864364874023,46.9286657090611 7.44882462135651,46.9288541666468 7.44897089283779,46.929017159116 7.4493674398005,46.9288320495403 7.4493801226007,46.9287502395896 7.4496583559307,46.9286210164987 7.44984765724609,46.9285075717396 7.44980360267483,46.9284584517465 7.44964989660689,46.9283039502067 7.44961519088528,46.9282598092766 7.44962261938803,46.9282241538738 7.44964987751342,46.9282020794903</coordinates>
+                </LineString>
+                <LineString>
+                    <coordinates>7.44964987751342,46.9282020794903 7.44985558149116,46.9281052727834 7.4500137404991,46.9280317001712 7.4501756905309,46.9279583068928 7.45021008930055,46.9279428994111 7.45025464645265,46.927921003179 7.45034728811407,46.9278705201452 7.45039295926183,46.927838807734 7.45049380319847,46.9277687929612 7.45080611311334,46.9275587487877</coordinates>
+                </LineString>
+                <LineString>
+                    <coordinates>7.45080611311334,46.9275587487877 7.45080611311334,46.9275587487877</coordinates>
+                </LineString>
+                <LineString>
+                    <coordinates>7.45080611311334,46.9275587487877 7.45115358111589,46.9279339320796</coordinates>
+                </LineString>
+                <LineString>
+                    <coordinates>7.45080611311334,46.9275587487877 7.4508061155544,46.9275587471459</coordinates>
+                </LineString>
+            </MultiGeometry>
+        </Placemark>
+    </Document>
+</kml>
