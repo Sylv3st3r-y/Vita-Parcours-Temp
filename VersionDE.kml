@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/kml/2.2 https://developers.google.com/kml/schema/kml22gx.xsd">
     <Document>
         <!-- Hier ist der Anzeigenname von der Zeichnung gespeichert-->
-        <name>Vitaparcours swisstopo</name>  
+        <name>Vita-Parcours swisstopo</name>  
 
         <!--________STYLE VOM SYMBOL________-->
         <!-- Ein Bild wurde als Icon für jeden Posten auf einem externen Server abgelegt-->
